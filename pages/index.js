@@ -1,65 +1,51 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+/* React */
+import React, { useEffect } from "react";
+import { Switch, Route, useLocation } from "react-router-dom";
+/* Next.js */
+import Head from "next/head";
+/* Utilities */
+import AOS from "aos";
+
+/* Components */
+import Nav from "../components/Nav";
+import Nav2 from "../components/Nav2";
+import Hero from "../components/Hero";
+import Process from "../components/Process";
+import Features from "../components/Features";
+import TabFeatures from "../components/Tabs";
+import Targets from "../components/Targets";
+import CTA from "../components/CTA";
+import Footer from "../components/Footer";
+
+/* Partials */
+import Illustration from "../components/partials/Illustration";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: "phone",
+      duration: 600,
+      easing: "ease-out-sine",
+    });
+  });
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+    <div className="font-inter antialiased bg-white text-gray-800">
+      <div className="flex flex-col min-h-screen overflow-hidden">
+        <Nav2></Nav2>
+        <main className="flex-grow">
+          <div className="relative max-w-6xl mx-auto h-0 pointer-events-none">
+            <Illustration></Illustration>
+          </div>
+          <Hero></Hero>
+          <Process></Process>
+          <Features></Features>
+          <TabFeatures></TabFeatures>
+          <Targets></Targets>
+          <CTA></CTA>
+          <Footer></Footer>
+        </main>
+      </div>
     </div>
-  )
+  );
 }
