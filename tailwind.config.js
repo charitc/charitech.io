@@ -19,6 +19,9 @@ module.exports = {
         "5xl": "3.25rem",
         "6xl": "4rem",
       },
+      colors: {
+        "light-gray": "hsl(0, 0%, 98%)",
+      },
       spacing: {
         "9/16": "56.25%",
         "3/4": "75%",

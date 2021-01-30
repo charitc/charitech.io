@@ -15,6 +15,7 @@ import Features from "../components/Features";
 import TabFeatures from "../components/Tabs";
 import Targets from "../components/Targets";
 import CTA from "../components/CTA";
+import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 
 /* Partials */
@@ -42,6 +43,7 @@ export default function Home() {
           <Features></Features>
           <TabFeatures></TabFeatures>
           <Targets></Targets>
+          <Projects></Projects>
           <CTA></CTA>
           <Footer></Footer>
         </main>

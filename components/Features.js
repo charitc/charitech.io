@@ -1,8 +1,8 @@
 export default function Features() {
   return (
-    <section>
+    <section className="bg-light-gray">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-300">
+        <div className="py-12 md:py-20">
           {/* Items */}
           <div className="grid gap-20" data-aos-id-features-home>
             {/* Item */}
