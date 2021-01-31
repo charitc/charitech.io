@@ -2,9 +2,9 @@ import React from "react";
 
 function Cta() {
   return (
-    <section>
+    <section className="bg-light-gray">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        <div className="pt-12 md:pt-20 border-t border-b border-gray-800">
+        <div className="pt-12 md:pt-20 ">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos-id-cta>
             {/* Section header */}
             <h1 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-cta]">

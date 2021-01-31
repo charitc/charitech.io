@@ -3,7 +3,7 @@ import React from "react";
 function Faqs() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="antialiased max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800 lg:border-0 lg:pt-0">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
