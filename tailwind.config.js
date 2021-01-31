@@ -27,6 +27,15 @@ module.exports = {
         "3/4": "75%",
         "1/1": "100%",
       },
+      animation: {
+        float: "float 3s ease-in-out infinite",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5%)" },
+        },
+      },
       letterSpacing: {
         tighter: "-0.02em",
         tight: "-0.01em",

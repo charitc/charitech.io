@@ -14,21 +14,33 @@ export default function Features() {
                 data-aos-anchor="[data-aos-id-features-home]"
               >
                 <div className="relative">
-                  <img className="md:max-w-none" src="../images/features-illustration.png" width="540" height="520" alt="Features illustration" />
-                  <svg
-                    className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
-                    width="540"
-                    height="520"
-                    viewBox="0 0 540 520"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g className="fill-current text-purple-600">
-                      <circle className="pulse" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-1" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-2" cx="270" cy="260" r="64" />
-                      <circle className="pulse pulse-3" cx="270" cy="260" r="64" />
-                    </g>
-                  </svg>
+                  <div className="relative inline-flex flex-col">
+                    <img className="md:max-w-none mx-auto rounded" src="/images/features-home-bg-01.png" width="500" height="375" alt="Features bg" />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      src="/images/features-home-element-01.png"
+                      width="500"
+                      height="147"
+                      alt="Element 01"
+                      style={{ top: "22%" }}
+                    />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500"
+                      src="/images/features-home-element-02.png"
+                      width="500"
+                      height="158"
+                      alt="Element 02"
+                      style={{ top: "39%" }}
+                    />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000"
+                      src="/images/features-home-element-03.png"
+                      width="500"
+                      height="167"
+                      alt="Element 03"
+                      style={{ top: "77%" }}
+                    />
+                  </div>
                 </div>
               </div>
               {/* Content */}

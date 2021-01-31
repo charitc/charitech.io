@@ -8,7 +8,6 @@ import AOS from "aos";
 
 /* Components */
 import Nav from "../components/Nav";
-import Nav2 from "../components/Nav2";
 import Hero from "../components/Hero";
 import Process from "../components/Process";
 import Features from "../components/Features";
@@ -33,19 +32,19 @@ export default function Home() {
   return (
     <div className="font-inter antialiased bg-white text-gray-800">
       <div className="flex flex-col min-h-screen overflow-hidden">
-        <Nav2></Nav2>
+        <Nav />
         <main className="flex-grow">
           <div className="relative max-w-6xl mx-auto h-0 pointer-events-none">
-            <Illustration></Illustration>
+            <Illustration />
           </div>
-          <Hero></Hero>
-          <Process></Process>
-          <Features></Features>
-          <TabFeatures></TabFeatures>
-          <Targets></Targets>
-          <Projects></Projects>
-          <CTA></CTA>
-          <Footer></Footer>
+          <Hero />
+          <Process />
+          <Features />
+          <TabFeatures />
+          <Targets />
+          <Projects />
+          <CTA />
+          <Footer />
         </main>
       </div>
     </div>

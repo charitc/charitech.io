@@ -20,7 +20,7 @@ export default function TabFeatures() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-18 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
             <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">
