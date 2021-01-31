@@ -29,6 +29,7 @@ export default function Home() {
       easing: "ease-out-sine",
     });
   });
+
   return (
     <div className="font-inter antialiased bg-white text-gray-800">
       <div className="flex flex-col min-h-screen overflow-hidden">

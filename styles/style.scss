@@ -9,3 +9,7 @@
 @import "theme.scss";
 @import "utils/range-slider.scss";
 @import "utils/toggle-switch.scss";
+
+// AOS styles
+$aos-distance: 10px;
+@import "node_modules/aos/src/sass/aos.scss";
