@@ -7,8 +7,12 @@
 
 // Additional Styles
 @import "theme.scss";
+@import "utils/hamburger.scss";
 @import "utils/range-slider.scss";
 @import "utils/toggle-switch.scss";
+
+// Animations
+@import "utils/pulse-animation.scss";
 
 // AOS styles
 $aos-distance: 10px;
