@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cta() {
+export default function Cta() {
   return (
     <section className="bg-light-gray">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -10,7 +10,7 @@ function Cta() {
             <h1 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-cta]">
               Ready to create better products?
             </h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-cta]">
+            <p className="text-xl text-gray-500 mb-8" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-cta]">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.
             </p>
 
@@ -48,5 +48,3 @@ function Cta() {
     </section>
   );
 }
-
-export default Cta;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Faqs() {
+export default function Faqs() {
   return (
     <section>
       <div className="antialiased max-w-6xl mx-auto px-4 sm:px-6">
@@ -60,5 +60,3 @@ function Faqs() {
     </section>
   );
 }
-
-export default Faqs;

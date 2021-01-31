@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
 import Nav from "../components/Nav";
 import Illustration from "../components/partials/Illustration";
@@ -11,6 +11,14 @@ import PricingTestimonials from "../components/partials/PricingTestimonials";
 import PricingCTA from "../components/partials/PricingCTA";
 
 export default function Pricing() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: "phone",
+      duration: 600,
+      easing: "ease-out-sine",
+    });
+  });
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}

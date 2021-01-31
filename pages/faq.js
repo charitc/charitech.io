@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import AOS from "aos";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -6,6 +7,15 @@ import Illustration from "../components/partials/Illustration";
 
 export default function Faq() {
   const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: "phone",
+      duration: 600,
+      easing: "ease-out-sine",
+    });
+  });
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">

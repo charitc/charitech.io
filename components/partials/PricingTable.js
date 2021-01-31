@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function PricingTables() {
+export default function PricingTables() {
   const [value, setValue] = useState(true);
 
   const [priceOutput] = useState({
@@ -52,17 +52,17 @@ function PricingTables() {
             <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
               {/* Pricing table 1 */}
               <div className="relative flex flex-col h-full p-6 bg-gray-100" data-aos="fade-up" data-aos-delay="700">
-                <div className="mb-4 pb-4 border-b border-gray-700">
+                <div className="mb-4 pb-4 border-b border-gray-300">
                   <div className="h4 text-purple-600 mb-1">Free</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">{priceOutput.plan1[value][0]}</span>
                     <span className="h2">{priceOutput.plan1[value][1]}</span>
                     <span className="font-medium text-gray-400">{priceOutput.plan1[value][2]}</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-500">Better insights for growing businesses that want more customers.</div>
                 </div>
                 <div className="font-medium mb-3">Features include:</div>
-                <ul className="text-gray-400 -mb-3 flex-grow">
+                <ul className="text-gray-500 -mb-3 flex-grow">
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -100,17 +100,17 @@ function PricingTables() {
                 <div className="absolute top-0 right-0 mr-6 -mt-4">
                   <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">Most Popular</div>
                 </div>
-                <div className="mb-4 pb-4 border-b border-gray-700">
+                <div className="mb-4 pb-4 border-b border-gray-300">
                   <div className="h4 text-purple-600 mb-1">Professional</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">{priceOutput.plan2[value][0]}</span>
                     <span className="h2">{priceOutput.plan2[value][1]}</span>
                     <span className="font-medium text-gray-400">{priceOutput.plan2[value][2]}</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-500">Better insights for growing businesses that want more customers.</div>
                 </div>
                 <div className="font-medium mb-3">All features of Essential plus:</div>
-                <ul className="text-gray-400 -mb-3 flex-grow">
+                <ul className="text-gray-500 -mb-3 flex-grow">
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -158,10 +158,10 @@ function PricingTables() {
                     <span className="h2">{priceOutput.plan3[value][1]}</span>
                     <span className="font-medium text-gray-400">{priceOutput.plan3[value][2]}</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-500">Better insights for growing businesses that want more customers.</div>
                 </div>
                 <div className="font-medium mb-3">All features of Essential plus:</div>
-                <ul className="text-gray-400 -mb-3 flex-grow">
+                <ul className="text-gray-500 -mb-3 flex-grow">
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -209,7 +209,7 @@ function PricingTables() {
 
             {/* Bottom infobox */}
             <div className="flex flex-col lg:flex-row justify-between items-center mt-12 lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-100">
-              <div className="font-medium text-lg text-gray-800 text-center lg:text-left mb-4 lg:mb-0">Expecting more than 1000 Active End Users?</div>
+              <div className="font-medium text-lg text-gray-700 text-center lg:text-left mb-4 lg:mb-0">Expecting more than 1000 Active End Users?</div>
               <div>
                 <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700" href="#0">
                   Contact us
@@ -222,5 +222,3 @@ function PricingTables() {
     </section>
   );
 }
-
-export default PricingTables;

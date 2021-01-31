@@ -130,29 +130,29 @@ export default function Nav() {
                 className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
                 style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
               >
-                <ul className="bg-white px-4 py-2 rounded-md shadow-lg">
+                <ul className="bg-white px-4 py-2 rounded-md shadow-2xl">
                   <li>
                     <Link href="/features">
-                      <a className="flex text-gray-600 hover:text-gray-500 py-2">Features</a>
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/features">
-                      <a className="flex text-gray-600 hover:text-gray-500 py-2">Features</a>
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/features">
-                      <a className="flex text-gray-600 hover:text-gray-500 py-2">Features</a>
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/features">
-                      <a className="flex text-gray-600 hover:text-gray-500 py-2">Features</a>
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
                     </Link>
                   </li>
                   <li className="py-2 my-2 border-t border-b border-gray-200">
-                    <span className="flex text-gray-600 py-2">Support</span>
+                    <span className="flex text-gray-600 py-2 font-medium">Support</span>
                     <ul className="pl-4">
                       <li>
                         <Link href="/contact">
@@ -172,16 +172,15 @@ export default function Nav() {
                     </ul>
                   </li>
                   <li>
-                    <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">
-                      Sign in
+                    <Link href="/signin">
+                      <a className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/signup"
-                      className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                    >
-                      Sign up
+                    <Link href="/signup">
+                      <a className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                        Sign up
+                      </a>
                     </Link>
                   </li>
                 </ul>
