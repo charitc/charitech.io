@@ -49,21 +49,17 @@ export default function Nav() {
               <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-700">
                 <li>
                   <Link href="/features">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="features.html">
-                      Features
-                    </a>
+                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Features</a>
                   </Link>
                 </li>
                 <li>
-                  <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="pricing.html">
-                    Pricing
-                  </a>
+                  <Link href="/pricing">
+                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</a>
+                  </Link>
                 </li>
                 <li>
                   <Link href="/faq">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="blog.html">
-                      FAQs
-                    </a>
+                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">FAQs</a>
                   </Link>
                 </li>
                 <li>
