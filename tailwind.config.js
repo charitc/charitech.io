@@ -46,6 +46,9 @@ module.exports = {
       },
       inset: {
         full: "100%",
+        "1/5": "20%",
+        "1/2.5": "40%",
+        "3/4": "75%",
       },
       minWidth: {
         10: "2.5rem",
@@ -53,10 +56,46 @@ module.exports = {
       scale: {
         98: ".98",
       },
+      customForms: (theme) => ({
+        default: {
+          "input, textarea, multiselect, select, checkbox, radio": {
+            backgroundColor: "transparent",
+            borderColor: theme("colors.gray.700"),
+            borderRadius: theme("borderRadius.sm"),
+            "&:focus": {
+              outline: undefined,
+              boxShadow: undefined,
+              borderColor: theme("colors.gray.500"),
+            },
+          },
+          "input, textarea, multiselect, select": {
+            backgroundColor: "transparent",
+            fontSize: undefined,
+            lineHeight: undefined,
+            paddingTop: theme("spacing.3"),
+            paddingRight: theme("spacing.4"),
+            paddingBottom: theme("spacing.3"),
+            paddingLeft: theme("spacing.4"),
+          },
+          "input, textarea": {
+            "&::placeholder": {
+              color: theme("colors.gray.500"),
+            },
+          },
+          select: {
+            paddingRight: theme("spacing.10"),
+            iconColor: theme("colors.gray.500"),
+          },
+          "checkbox, radio": {
+            color: theme("colors.purple.600"),
+            backgroundColor: "transparent",
+          },
+        },
+      }),
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
