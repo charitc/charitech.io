@@ -23,74 +23,60 @@ export default function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
+
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-700 font-medium mb-1">Products</h6>
+                <h6 className="text-gray-700 font-medium mb-1">Get Started</h6>
                 <ul>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Web Studio
-                    </a>
+                    <Link href="/signup">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Register</a>
+                    </Link>
                   </li>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      DynamicBox Flex
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Programming Forms
-                    </a>
+                    <Link href="/signin">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Sign-in</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-700 font-medium mb-1">Resources</h6>
+                <h6 className="text-gray-700 font-medium mb-1">Ressources</h6>
                 <ul>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Nostrud exercitation
-                    </a>
+                    <Link href="/process">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Process</a>
+                    </Link>
                   </li>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Visual mockups
-                    </a>
+                    <Link href="/pricing">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Pricing</a>
+                    </Link>
                   </li>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Nostrud exercitation
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Visual mockups
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Nostrud exercitation
-                    </a>
+                    <Link href="/faq">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">FAQs</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-700 font-medium mb-1">Company</h6>
+                <h6 className="text-gray-700 font-medium mb-1">Legal</h6>
                 <ul>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Consectetur adipiscing
-                    </a>
+                    <Link href="/imprint">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Imprint</a>
+                    </Link>
                   </li>
                   <li className="mb-1">
-                    <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
-                      Labore et dolore
-                    </a>
+                    <Link href="/dataprivacy">
+                      <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Data Privacy</a>
+                    </Link>
                   </li>
                   <li className="mb-1">
                     <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out" href="#0">
@@ -156,7 +142,7 @@ export default function Footer() {
             <div className="">
               <Link href="https://vercel.com/?utm_source=charitech&utm_campaign=oss">
                 <a>
-                  <svg width="140" height="auto" viewBox="0 0 209 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="140" height="26" viewBox="0 0 209 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M0 5C0 2.23858 2.23858 0 5 0H204C206.761 0 209 2.23858 209 5V35C209 37.7614 206.761 40 204 40H5C2.23858 40 0 37.7614 0 35V5Z"
                       fill="black"

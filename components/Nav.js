@@ -1,8 +1,12 @@
-import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
+import { signIn, signOut, useSession } from "next-auth/client";
+import Link from "next/link";
+
 import Dropdown from "../utils/Dropdown";
 
 export default function Nav() {
+  const [session, loading] = useSession();
+
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   const mobileNav = useRef(null);
@@ -48,8 +52,8 @@ export default function Nav() {
               {/* Desktop menu links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-700">
                 <li>
-                  <Link href="/features">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Features</a>
+                  <Link href="/process">
+                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Process</a>
                   </Link>
                 </li>
                 <li>
@@ -63,13 +67,12 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="about.html">
-                      About us
-                    </a>
+                  <Link href="/contact">
+                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
                   </Link>
                 </li>
                 {/* 1st level: hover */}
+                {/* 
                 <Dropdown title="Support">
                   <li>
                     <a className="font-medium text-sm text-gray-500 hover:text-gray-400 flex py-2 px-4 leading-tight" href="contact.html">
@@ -87,6 +90,7 @@ export default function Nav() {
                     </a>
                   </li>
                 </Dropdown>
+                */}
               </ul>
               {/* Desktop sign in links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center">
@@ -132,25 +136,26 @@ export default function Nav() {
               >
                 <ul className="bg-white px-4 py-2 rounded-md shadow-2xl">
                   <li>
-                    <Link href="/features">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
+                    <Link href="/process">
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Process</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/features">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
+                    <Link href="/pricing">
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Pricing</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/features">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
+                    <Link href="/faq">
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">FAQs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/features">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Features</a>
+                    <Link href="/contact">
+                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Contact</a>
                     </Link>
                   </li>
+                  {/* 
                   <li className="py-2 my-2 border-t border-b border-gray-200">
                     <span className="flex text-gray-600 py-2 font-medium">Support</span>
                     <ul className="pl-4">
@@ -171,6 +176,7 @@ export default function Nav() {
                       </li>
                     </ul>
                   </li>
+                  */}
                   <li>
                     <Link href="/signin">
                       <a className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</a>
