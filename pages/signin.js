@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import Nav from "../components/Nav";
-import Illustration from "../components/partials/Illustration";
+import Illustration from "../partials/Illustration";
 
 export default function SignIn() {
   return (
