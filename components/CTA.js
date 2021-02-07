@@ -1,4 +1,4 @@
-import CTAIllustration from "../components/partials/CTAIllustration";
+import CTAIllustration from "../partials/CTAIllustration";
 
 export default function CTA() {
   return (
