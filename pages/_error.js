@@ -2,9 +2,9 @@ import Link from "next/link";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Illustration from "../components/partials/Illustration";
+import Illustration from "../partials/Illustration";
 
-function Error({ statusCode }) {
+export default function Error({ statusCode }) {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -60,5 +60,3 @@ Error.getInitialProps = ({ res, err }) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
   return { statusCode };
 };
-
-export default Error;

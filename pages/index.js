@@ -18,7 +18,7 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 
 /* Partials */
-import Illustration from "../components/partials/Illustration";
+import Illustration from "../partials/Illustration";
 
 export default function Home() {
   useEffect(() => {
