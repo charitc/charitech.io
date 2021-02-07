@@ -61,7 +61,7 @@
   // Only select
   select,
   select[multiple] {
-    @apply pr-10 border-gray-500;
+    @apply pr-10 border-gray-300;
   }
   // Only checkbox and radio
   input[type="checkbox"],
