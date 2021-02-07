@@ -3,7 +3,7 @@ import AOS from "aos";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Illustration from "../components/partials/Illustration";
+import Illustration from "../partials/Illustration";
 
 export default function Faq() {
   const [page, setPage] = useState(1);

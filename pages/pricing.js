@@ -2,13 +2,13 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 
 import Nav from "../components/Nav";
-import Illustration from "../components/partials/Illustration";
+import Illustration from "../partials/Illustration";
 import Footer from "../components/Footer";
 
-import PricingTable from "../components/partials/PricingTable";
-import PricingFaq from "../components/partials/PricingFaq";
-import PricingTestimonials from "../components/partials/PricingTestimonials";
-import PricingCTA from "../components/partials/PricingCTA";
+import PricingTable from "../partials/PricingTable";
+import PricingFaq from "../partials/PricingFaq";
+import PricingTestimonials from "../partials/PricingTestimonials";
+import PricingCTA from "../partials/PricingCTA";
 
 export default function Pricing() {
   useEffect(() => {
