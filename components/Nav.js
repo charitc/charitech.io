@@ -91,14 +91,14 @@ export default function Nav() {
               {/* Desktop sign in links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center">
                 <li>
-                  <a className="font-medium text-green-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out" href="signin.html">
-                    Sign in
-                  </a>
+                  <Link href="/signin ">
+                    <a className="font-medium text-green-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="btn-sm text-white bg-green-900 hover:bg-green-700 ml-3" href="signup.html">
-                    Sign up
-                  </a>
+                  <Link href="/signup">
+                    <a className="btn-sm text-white bg-green-900 hover:bg-green-700 ml-3">Sign up</a>
+                  </Link>
                 </li>
               </ul>
             </nav>
