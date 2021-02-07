@@ -1,0 +1,105 @@
+@layer utilities {
+  // All input types: input, textarea, multiselect, select, checkbox, radio
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  input[type="url"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="week"],
+  input[type="time"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select,
+  select[multiple],
+  textarea {
+    @apply bg-transparent border border-gray-300 rounded-sm focus:outline-none focus:shadow-none focus:ring-0 focus:border-gray-600;
+    &:focus {
+      @apply outline-none shadow-none;
+    }
+  }
+  // All input types except:checkbox & radio
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  input[type="url"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="week"],
+  input[type="time"],
+  input[type="search"],
+  input[type="tel"],
+  select,
+  select[multiple],
+  textarea {
+    @apply bg-transparent pt-3 pr-4 pb-3 pl-4;
+  }
+  // Only input & textarea
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  input[type="url"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="week"],
+  input[type="time"],
+  input[type="search"],
+  input[type="tel"],
+  textarea {
+    &::placeholder {
+      @apply text-gray-300;
+    }
+  }
+  // Only select
+  select,
+  select[multiple] {
+    @apply pr-10 border-gray-500;
+  }
+  // Only checkbox and radio
+  input[type="checkbox"],
+  input[type="radio"] {
+    @apply bg-transparent text-purple-500;
+  }
+}
+
+/*
+"input, textarea, multiselect, select, checkbox, radio": {
+            backgroundColor: "transparent",
+            borderColor: theme("colors.gray.700"),
+            borderRadius: theme("borderRadius.sm"),
+            "&:focus": {
+              outline: undefined,
+              boxShadow: undefined,
+              borderColor: theme("colors.gray.500"),
+            },
+          },
+          "input, textarea, multiselect, select": {
+            backgroundColor: "transparent",
+            fontSize: undefined,
+            lineHeight: undefined,
+            paddingTop: theme("spacing.3"),
+            paddingRight: theme("spacing.4"),
+            paddingBottom: theme("spacing.3"),
+            paddingLeft: theme("spacing.4"),
+          },
+          "input, textarea": {
+            "&::placeholder": {
+              color: theme("colors.gray.500"),
+            },
+          },
+          select: {
+            paddingRight: theme("spacing.10"),
+            iconColor: theme("colors.gray.500"),
+          },
+          "checkbox, radio": {
+            color: theme("colors.purple.600"),
+            backgroundColor: "transparent",
+            */
