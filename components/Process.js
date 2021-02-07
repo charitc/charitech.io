@@ -25,7 +25,7 @@ export default function Process() {
             <div className="relative flex flex-col items-center" data-aos="fade-up">
               <div
                 aria-hidden="true"
-                className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
+                className="absolute h-1 border-t border-dashed border-gray-400 hidden md:block"
                 style={{ width: "calc(100% - 32px)", left: "calc(50% + 48px)", top: "32px" }}
                 data-aos="fade-in"
                 data-aos-delay="200"
@@ -45,7 +45,7 @@ export default function Process() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
               <div
                 aria-hidden="true"
-                className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
+                className="absolute h-1 border-t border-dashed border-gray-400 hidden md:block"
                 style={{ width: "calc(100% - 32px)", left: "calc(50% + 48px)", top: "32px" }}
                 data-aos="fade-in"
                 data-aos-delay="400"
