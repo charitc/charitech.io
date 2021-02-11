@@ -8,7 +8,7 @@ export default function Projects() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
-              Refreshing news for developers and designers
+              Great projects that are waiting to be developed
             </h2>
           </div>
 
