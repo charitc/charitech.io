@@ -50,25 +50,25 @@ export default function Nav() {
             {/* Desktop navigation */}
             <nav className="hidden md:flex md:flex-grow">
               {/* Desktop menu links */}
-              <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-700">
+              <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-800">
                 <li>
                   <Link href="/process">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Process</a>
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Process</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/pricing">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</a>
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/faq">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">FAQs</a>
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">FAQs</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a className="hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
                   </Link>
                 </li>
                 {/* 1st level: hover */}
@@ -96,12 +96,12 @@ export default function Nav() {
               <ul className="flex flex-grow justify-end flex-wrap items-center">
                 <li>
                   <Link href="/signin ">
-                    <a className="font-medium text-green-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
+                    <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/signup">
-                    <a className="btn-sm text-white bg-green-900 hover:bg-green-700 ml-3">Sign up</a>
+                    <a className="btn-sm text-white bg-plato-900 hover:bg-plato-800 ml-3">Sign up</a>
                   </Link>
                 </li>
               </ul>
@@ -137,22 +137,22 @@ export default function Nav() {
                 <ul className="bg-white px-4 py-2 rounded-md shadow-2xl">
                   <li>
                     <Link href="/process">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Process</a>
+                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Process</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/pricing">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Pricing</a>
+                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Pricing</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/faq">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">FAQs</a>
+                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">FAQs</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/contact">
-                      <a className="flex font-medium text-gray-600 hover:text-gray-500 py-2">Contact</a>
+                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Contact</a>
                     </Link>
                   </li>
                   {/* 

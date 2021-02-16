@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Targets() {
   return (
-    <section className="bg-light-gray">
+    <section className="bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -29,12 +29,12 @@ export default function Targets() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">
+                  <div className="font-architects-daughter text-xl text-zomp-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">
                     Be the change you want to see
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2">
-                      <span className="text-purple-600">.</span> For developers
+                      <span className="text-zomp-400">.</span> For developers
                     </h4>
                     <p className="text-lg text-gray-500">
                       We created charitech.io for developers. Projects will always have a strong focus on creating a technical solution to a non-profit need.
@@ -42,7 +42,7 @@ export default function Targets() {
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2">
-                      <span className="text-teal-500">.</span> For project managers
+                      <span className="text-zomp-400">.</span> For project managers
                     </h4>
                     <p className="text-lg text-gray-500">
                       As for every team, communication and coordination is a big productivity driver. Get your first experience with software projects in record time.
@@ -50,7 +50,7 @@ export default function Targets() {
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2">
-                      <span className="text-pink-500">.</span> For marketers
+                      <span className="text-zomp-400">.</span> For marketers
                     </h4>
                     <p className="text-lg text-gray-500">
                       You eat with your eyes, we're no expection here. As projects are mostly websites - jump in an take over the marketing for your team.

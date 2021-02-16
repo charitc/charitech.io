@@ -1,14 +1,16 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <section>
+    <section className="bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Illustration behind hero content */}
         <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#5D5DFF" stopOpacity=".01" />
-                <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
+                <stop stopColor="#ffcca8" stopOpacity=".1" />
+                <stop offset="1" stopColor="#ffcca8" stopOpacity="0.7" />
               </linearGradient>
             </defs>
             <path
@@ -35,14 +37,14 @@ export default function Header() {
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Register free
-                </a>
+                <Link href="/signup">
+                  <a className="btn text-white bg-plato-900 hover:bg-plato-800 w-full mb-4 sm:w-auto sm:mb-0">Register free</a>
+                </Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">
-                  Learn more
-                </a>
+                <Link href="/process">
+                  <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">Learn more</a>
+                </Link>
               </div>
             </div>
           </div>

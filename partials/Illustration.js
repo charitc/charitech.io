@@ -1,12 +1,18 @@
 export default function Illustration() {
   return (
     <div>
-      <svg className="absolute top-0 right-0 transform translate-x-1/2 -mr-16" width="722" height="320" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        className="absolute top-0 right-0 transform translate-x-1/2 -mr-16 fill-current text-plato-900"
+        width="722"
+        height="320"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <defs>
           <linearGradient id="illustration-01" x1="-4.14" y1="43.12" x2="303.145" y2="391.913" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#5D5DFF" stopOpacity=".01" />
-            <stop offset=".538" stopColor="#5D5DFF" stopOpacity=".32" />
-            <stop offset="1" stopColor="#5D5DFF" stopOpacity=".01" />
+            <stop stopColor="#ffcca8" stopOpacity=".01" />
+            <stop offset=".538" stopColor="#ffcca8" stopOpacity=".5" />
+            <stop offset="1" stopColor="#ffcca8" stopOpacity=".9" />
           </linearGradient>
         </defs>
         <path

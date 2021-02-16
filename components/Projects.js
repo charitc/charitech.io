@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section>
+    <section className="bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -16,7 +16,7 @@ export default function Projects() {
           <div className="max-w-sm mx-auto md:max-w-none">
             <div className="grid gap-12 md:grid-cols-3 md:col-gap-6 md:row-gap-8 items-start">
               {/* 1st article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -75,7 +75,7 @@ export default function Projects() {
               </article>
 
               {/* 2nd article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -134,7 +134,7 @@ export default function Projects() {
               </article>
 
               {/* 3rd article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -197,7 +197,7 @@ export default function Projects() {
           <div className="max-w-sm mx-auto md:max-w-none mt-14">
             <div className="grid gap-12 md:grid-cols-3 md:col-gap-6 md:row-gap-8 items-start">
               {/* 1st article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -256,7 +256,7 @@ export default function Projects() {
               </article>
 
               {/* 2nd article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -315,7 +315,7 @@ export default function Projects() {
               </article>
 
               {/* 3rd article */}
-              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl" data-aos="fade-up">
+              <article className="flex flex-col h-fulls shadow-lg rounded-b-xl bg-white" data-aos="fade-up">
                 <header>
                   <a className="block mb-6" href="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">

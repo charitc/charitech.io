@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section className="bg-light-gray">
+    <section className="bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Items */}
@@ -31,7 +31,7 @@ export default function Features() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Learn modern workflows</div>
+                  <div className="font-architects-daughter text-xl text-zomp-600 mb-2">Learn modern workflows</div>
                   <h3 className="h3 mb-3">Work with modern tools</h3>
                   <p className="text-xl text-gray-500 mb-4">
                     Learn to work in a team using industry standard workflows in project management, code contribution, remote work or pair programming.
@@ -76,7 +76,7 @@ export default function Features() {
                       </blockquote>
                       <div className="text-gray-700 font-medium">
                         <cite className="text-gray-500 not-italic">Anastasia Dan</cite> -{" "}
-                        <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                        <a className="text-zomp-600 hover:text-plato-900 transition duration-150 ease-in-out" href="#0">
                           UX Board
                         </a>
                       </div>
