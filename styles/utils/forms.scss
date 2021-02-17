@@ -17,7 +17,7 @@
   select,
   select[multiple],
   textarea {
-    @apply bg-transparent border border-gray-300 rounded-sm focus:outline-none focus:shadow-none focus:ring-0 focus:border-gray-600;
+    @apply bg-transparent border border-gray-300 rounded-sm focus:outline-none focus:shadow-none focus:ring-0 focus:border-zomp-600;
     &:focus {
       @apply outline-none shadow-none;
     }
@@ -54,8 +54,9 @@
   input[type="search"],
   input[type="tel"],
   textarea {
+    @apply text-gray-800;
     &::placeholder {
-      @apply text-gray-300;
+      @apply text-gray-400;
     }
   }
   // Only select
@@ -66,7 +67,7 @@
   // Only checkbox and radio
   input[type="checkbox"],
   input[type="radio"] {
-    @apply bg-transparent text-purple-500;
+    @apply bg-transparent text-plato-900;
   }
 }
 

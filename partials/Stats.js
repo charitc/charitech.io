@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <section>
+    <section className="bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Section header */}
@@ -13,7 +13,7 @@ export default function Stats() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200 px-6 md:px-0 md:py-8 text-center">
+          <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-coral-200 px-6 md:px-0 md:py-8 text-center">
             {/* 1st item */}
             <div className="py-6 md:py-0 md:px-8">
               <div className="text-4xl font-bold leading-tight tracking-tighter text-gray-800 mb-2" data-aos="fade-up">

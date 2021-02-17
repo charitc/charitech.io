@@ -8,7 +8,7 @@ import ProcessHero from "../partials/ProcessHero";
 import Stats from "../partials/Stats";
 import ProcessZigZaq from "../partials/ProcessZiqZaq";
 import IconBlock from "../partials/IconBlock";
-import CTA from "../partials/ProcessCTA";
+import ProcessCTA from "../partials/ProcessCTA";
 import Footer from "../components/Footer";
 
 export default function Process() {
@@ -21,7 +21,7 @@ export default function Process() {
     });
   });
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-col min-h-screen overflow-hidden antialiased">
       {/*  Site header */}
       <Nav />
 
@@ -38,7 +38,7 @@ export default function Process() {
         <ProcessZigZaq />
         <IconBlock />
         {/* <CaseStudies /> */}
-        <CTA />
+        <ProcessCTA />
       </main>
 
       {/*  Site footer */}

@@ -6,7 +6,7 @@ import Illustration from "../partials/Illustration";
 
 export default function SignUp() {
   return (
-    <section className="antialiased">
+    <section className="bg-linen-200 antialiased">
       <div className="flex flex-col min-h-screen overflow-hidden">
         {/*  Site header */}
         <Nav />
@@ -44,7 +44,7 @@ export default function SignUp() {
                   </form>
                   <div className="flex items-center my-6">
                     <div className="border-t border-gray-300 border-dotted flex-grow mr-3" aria-hidden="true"></div>
-                    <div className="text-gray-400">Or, register with your email</div>
+                    <div className="text-gray-800">Or, register with your email</div>
                     <div className="border-t border-gray-700 border-dotted flex-grow ml-3" aria-hidden="true"></div>
                   </div>
                   <form>
@@ -89,14 +89,14 @@ export default function SignUp() {
                     </div>
                     <div className="flex flex-wrap -mx-3 mt-6">
                       <div className="w-full px-3">
-                        <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign up</button>
+                        <button className="btn text-white bg-plato-900 hover:bg-plato-800 w-full">Sign up</button>
                       </div>
                     </div>
                   </form>
                   <div className="text-gray-500 text-center mt-6">
                     Already using Open PRO?{" "}
                     <Link href="/signin">
-                      <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</a>
+                      <a className="text-zomp-600 hover:text-zomp-500 transition duration-150 ease-in-out">Sign in</a>
                     </Link>
                   </div>
                 </div>

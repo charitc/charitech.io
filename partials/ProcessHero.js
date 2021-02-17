@@ -3,15 +3,15 @@ import Image from "next/image";
 
 export default function ProcessHero() {
   return (
-    <section className="relative">
+    <section className="relative bg-linen-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Illustration behind hero content */}
         <div className="absolute left-0 bottom-0 -ml-64 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="600">
           <svg className="max-w-full" width="552" height="564" viewBox="0 0 552 564" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="paint0_linear" x1="-2.963" y1="307.099" x2="290.505" y2="577.859" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#5D5DFF" stopOpacity=".01" />
-                <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
+                <stop stopColor="#ffcca8" stopOpacity=".05" />
+                <stop offset="1" stopColor="#ffcca8" stopOpacity=".9" />
               </linearGradient>
             </defs>
             <path
