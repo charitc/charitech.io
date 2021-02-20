@@ -6,7 +6,7 @@ export default function Process() {
   };
 
   return (
-    <section className="bg-linen-200">
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-10 pb-12 md:pt-16 md:pb-20">
           {/* Section header */}

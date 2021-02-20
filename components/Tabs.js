@@ -18,7 +18,7 @@ export default function TabFeatures() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab]);
   return (
-    <section className="bg-linen-200">
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-18 md:py-20">
           {/* Section header */}

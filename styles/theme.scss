@@ -1,3 +1,9 @@
+// Base
+
+body {
+  @apply bg-linen-200;
+}
+
 // Typogrophy
 .h1 {
   @apply text-4xl font-extrabold leading-tight tracking-tighter;

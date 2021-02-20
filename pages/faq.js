@@ -18,7 +18,7 @@ export default function Faq() {
   });
 
   return (
-    <section className="bg-linen-200">
+    <section>
       <div className="flex flex-col min-h-screen overflow-hidden">
         {/*  Site header */}
         <Nav />

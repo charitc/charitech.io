@@ -2,7 +2,7 @@ import CTAIllustration from "../partials/CTAIllustration";
 
 export default function CTA() {
   return (
-    <section className="bg-linen-200">
+    <section>
       <div className="max-w-6xl mx-auto py-6 px-4 sm:px-6">
         {/* CTA box */}
         <div className="relative bg-plato-900 py-10 px-8 md:py-16 md:px-12 rounded-md" data-aos="fade-up">

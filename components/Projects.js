@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section className="bg-linen-200">
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
