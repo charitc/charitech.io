@@ -14,42 +14,42 @@ export default function Faqs() {
           <ul className="grid gap-8 md:grid-cols-2 xl:col-gap-16 lg:row-gap-12">
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Publishing industries for previewing layouts?</h4>
-              <p className="text-lg text-gray-400">
+              <p className="text-lg text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum.
               </p>

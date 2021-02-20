@@ -55,7 +55,7 @@ export default function Contact() {
                         placeholder="Enter your first name"
                         required
                       />
-                      <p className="text-red-500 text-sm mt-2">This field is required</p>
+                      {/*<p className="text-red-500 text-sm mt-2">This field is required</p>*/}
                     </div>
                     <div className="w-full md:w-1/2 px-3">
                       <label className="block text-gray-900 text-sm font-medium mb-1" htmlFor="last-name">

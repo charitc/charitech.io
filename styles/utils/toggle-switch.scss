@@ -20,7 +20,7 @@
   input[type="checkbox"] {
     &:checked {
       + label {
-        @apply bg-purple-600;
+        @apply bg-plato-900;
 
         > span:first-child {
           left: 30px;
