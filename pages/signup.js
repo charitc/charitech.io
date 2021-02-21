@@ -37,7 +37,7 @@ export default function SignUp() {
                           </svg>
 
                           <span className="h-6 flex items-center border-r border-white border-opacity-25 mr-4" aria-hidden="true"></span>
-                          <span className="flex-auto pl-16 pr-8 -ml-16">Sign up with GitHub</span>
+                          <span className="flex-auto pl-16 pr-8 -ml-16">Sign up with Github</span>
                         </button>
                       </div>
                     </div>
