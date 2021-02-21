@@ -36,7 +36,9 @@ export default function TabFeatures() {
             {/* Tabs buttons */}
             <div className="flex flex-wrap justify-center -m-2" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-tabs]">
               <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 ${tab !== 1 && "opacity-50"}`}
+                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 focus:outline-none focus:outline-none ${
+                  tab !== 1 && "opacity-50"
+                }`}
                 onClick={() => setTab(1)}
               >
                 <svg className="w-4 h-4 fill-current text-linen-300 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +47,9 @@ export default function TabFeatures() {
                 <span className="text-white group-hover:text-linen-200 transition-colors duration-150 ease-in-out">Quick action</span>
               </button>
               <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 ${tab !== 2 && "opacity-50"}`}
+                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 focus:outline-none ${
+                  tab !== 2 && "opacity-50"
+                }`}
                 onClick={() => setTab(2)}
               >
                 <svg className="w-4 h-4 fill-current text-linen-300 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +58,9 @@ export default function TabFeatures() {
                 <span className="text-white group-hover:text-linen-200 transition-colors duration-150 ease-in-out">Quick action</span>
               </button>
               <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 ${tab !== 3 && "opacity-50"}`}
+                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 focus:outline-none ${
+                  tab !== 3 && "opacity-50"
+                }`}
                 onClick={() => setTab(3)}
               >
                 <svg className="w-4 h-4 fill-current text-linen-300 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +69,9 @@ export default function TabFeatures() {
                 <span className="text-white group-hover:text-linen-200 transition-colors duration-150 ease-in-out">Quick action</span>
               </button>
               <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 ${tab !== 4 && "opacity-50"}`}
+                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 focus:outline-none ${
+                  tab !== 4 && "opacity-50"
+                }`}
                 onClick={() => setTab(4)}
               >
                 <svg className="w-4 h-4 fill-current text-linen-300 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +80,9 @@ export default function TabFeatures() {
                 <span className="text-white group-hover:text-linen-200 transition-colors duration-150 ease-in-out">Quick action</span>
               </button>
               <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 ${tab !== 5 && "opacity-50"}`}
+                className={`flex items-center font-medium py-2 px-4 m-2 bg-plato-900 rounded-full group transition duration-500 focus:outline-none ${
+                  tab !== 5 && "opacity-50"
+                }`}
                 onClick={() => setTab(5)}
               >
                 <svg className="w-4 h-4 fill-current text-linen-300 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">

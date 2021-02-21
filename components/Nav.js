@@ -109,7 +109,7 @@ export default function Nav() {
             <div className="md:hidden">
               {/* Hamburger button */}
               <button
-                className={`hamburger ${mobileNavOpen && "active"}`}
+                className={`hamburger focus:outline-none ${mobileNavOpen && "active"}`}
                 aria-controls="mobile-nav"
                 aria-expanded={mobileNavOpen}
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
@@ -133,25 +133,25 @@ export default function Nav() {
                 className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
                 style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
               >
-                <ul className="bg-white px-4 py-2 rounded-md shadow-2xl">
+                <ul className="bg-plato-900 px-4 py-2 rounded-md shadow-2xl">
                   <li>
                     <Link href="/process">
-                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Process</a>
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">Process</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/pricing">
-                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Pricing</a>
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">Pricing</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/faq">
-                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">FAQs</a>
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">FAQs</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/contact">
-                      <a className="flex font-medium text-gray-600 hover:text-zomp-700 py-2">Contact</a>
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">Contact</a>
                     </Link>
                   </li>
                   {/* 
@@ -178,12 +178,12 @@ export default function Nav() {
                   */}
                   <li>
                     <Link href="/signin">
-                      <a className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</a>
+                      <a className="flex font-medium w-full text-coral-300 hover:text-coral-200 py-2 justify-center">Sign in</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/signup">
-                      <a className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                      <a className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-plato-900 bg-coral-300 hover:bg-coral-200 transition duration-150 ease-in-out">
                         Sign up
                       </a>
                     </Link>
