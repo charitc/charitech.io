@@ -8,7 +8,7 @@ export default function ContactCTA() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-3/4">
               <h3 className="h3 text-white mb-2">Just want to say hello?</h3>
-              <p className="text-linen-200 text-lg">Drop us a line and we will get back to you shortly.</p>
+              <p className="text-white text-lg">Drop us a line and we will get back to you shortly.</p>
             </div>
 
             {/* CTA button */}

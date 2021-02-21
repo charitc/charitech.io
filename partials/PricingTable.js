@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function PricingTables() {
+export default function PricingTable() {
   const [value, setValue] = useState(true);
 
   const [priceOutput] = useState({
@@ -45,7 +45,7 @@ export default function PricingTables() {
                 <div className="form-switch focus-within:shadow-outline">
                   <input type="checkbox" name="pricing-toggle" id="pricing-toggle" className="sr-only" checked={value} onChange={() => setValue(!value)} />
                   <label className="bg-gray-600" htmlFor="pricing-toggle">
-                    <span className="bg-gray-200" aria-hidden="true"></span>
+                    <span className="bg-white" aria-hidden="true"></span>
                     <span className="sr-only">Enable to see yearly prices</span>
                   </label>
                 </div>
