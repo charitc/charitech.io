@@ -2,10 +2,6 @@ const { white, black } = require("tailwindcss/colors");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: ["./pages/**/*.js", "./components/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -174,5 +170,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms"), require("precss"), require("autoprefixer")],
+  plugins: [require("@tailwindcss/forms"), require("autoprefixer")],
 };
