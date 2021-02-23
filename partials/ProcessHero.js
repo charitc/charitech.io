@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import ProcessIllustration from "../partials/Illustrations/Scrum";
+
 export default function ProcessHero() {
   return (
     <section className="relative bg-linen-200">
@@ -28,15 +30,15 @@ export default function ProcessHero() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Keep track of every important detail
+              Get matched to a team of developers
             </h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">
-              Every feature in Open PRO makes things easy to build, pleasant to create, and simple to manage.
+            <p className="text-xl text-gray-500" data-aos="fade-up" data-aos-delay="200">
+              After your application we will match you to a team of likeminded developers eager to ship a project.
             </p>
           </div>
           {/* Image */}
           <div className="flex justify-center mx-auto">
-            <Image src="/images/hero-image-02.png" alt="Hero" width={768} height={432} className="mx-auto" data-aos="fade-up" data-aos-delay="400" />
+            <ProcessIllustration />
           </div>
         </div>
       </div>

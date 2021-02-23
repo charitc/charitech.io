@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import Git from "../partials/Illustrations/Git";
+
 export default function Features() {
   return (
     <section>
@@ -16,7 +18,8 @@ export default function Features() {
                 data-aos-anchor="[data-aos-id-features-home]"
               >
                 <div className="relative inline-flex flex-col">
-                  <Image src="/images/git_flow_atom.png" alt="Features bg" width={500} height={381} className="md:max-w-none mx-auto rounded" />
+                  <Git />
+
                   <div className="md:max-w-none absolute w-full left-0 transform animate-float float-22">
                     <Image src="/images/features-home-element-01.png" alt="Element 01" width={500} height={147} />
                   </div>

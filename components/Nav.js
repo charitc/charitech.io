@@ -51,7 +51,7 @@ export default function Nav() {
               <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-800">
                 <li>
                   <Link href="/process">
-                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Process</a>
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">How it works</a>
                   </Link>
                 </li>
                 <li>
@@ -136,7 +136,7 @@ export default function Nav() {
                 <ul className="bg-plato-900 px-4 py-2 rounded-md shadow-2xl">
                   <li>
                     <Link href="/process">
-                      <a className="flex font-medium text-white hover:text-linen-200 py-2">Process</a>
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">How it works</a>
                     </Link>
                   </li>
                   <li>
