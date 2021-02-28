@@ -4,9 +4,9 @@ export default function ContactCTA() {
       <svg id="b543c902-2711-464d-9f40-b15eb324e31e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="500" height="381" viewBox="0 0 1038.23 693.31">
         <defs>
           <linearGradient id="be976a09-f639-4984-bf14-ee296c482822" x1="320.96" y1="796.01" x2="320.96" y2="284.81" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-            <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-            <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+            <stop offset="0" stopColor="gray" stopOpacity="0.25" />
+            <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
+            <stop offset="1" stopColor="gray" stopOpacity="0.1" />
           </linearGradient>
         </defs>
         <title>version control</title>
@@ -116,32 +116,32 @@ export default function ContactCTA() {
           />
         </g>
         <g opacity="0.8">
-          <line x1="330.04" y1="290.49" x2="955.1" y2="290.49" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="3" />
+          <line x1="330.04" y1="290.49" x2="955.1" y2="290.49" fill="none" stroke="#3f3d56" strokeMiterlimit="10" strokeWidth="3" />
           <path
             d="M466.46,393.83s29.89,4.15,14.41-27.92,42-26,42-26"
             transform="translate(-80.89 -103.35)"
             fill="none"
             stroke="#3f3d56"
-            stroke-miterlimit="10"
-            stroke-width="3"
+            strokeMiterlimit="10"
+            strokeWidth="3"
           />
           <path
             d="M665.53,393.83s29.89-4.14,14.41,27.93,42,26,42,26"
             transform="translate(-80.89 -103.35)"
             fill="none"
             stroke="#3f3d56"
-            stroke-miterlimit="10"
-            stroke-width="3"
+            strokeMiterlimit="10"
+            strokeWidth="3"
           />
           <path
             d="M952.16,393.83s-29.9-4.14-14.41,27.93-42,26-42,26"
             transform="translate(-80.89 -103.35)"
             fill="none"
             stroke="#3f3d56"
-            stroke-miterlimit="10"
-            stroke-width="3"
+            strokeMiterlimit="10"
+            strokeWidth="3"
           />
-          <line x1="814.86" y1="344.4" x2="649.93" y2="344.4" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="3" />
+          <line x1="814.86" y1="344.4" x2="649.93" y2="344.4" fill="none" stroke="#3f3d56" strokeMiterlimit="10" strokeWidth="3" />
           <circle cx="330.04" cy="290.49" r="18.25" fill="#173b2f" />
           <circle cx="442.29" cy="236.3" r="18.25" fill="#3acc6c" />
           <circle cx="442.29" cy="290.49" r="18.25" fill="#173b2f" />
