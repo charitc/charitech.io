@@ -1,10 +1,22 @@
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import { SignIn, signOut, useSession } from "next-auth/client";
+
+import { useRouter } from "next/router";
 
 import Nav from "../components/Nav";
 import Illustration from "../partials/Illustration";
+import SignInForm from "../components/SignInForm";
 
-export default function SignIn() {
+export default function SignInPage() {
+  const [session, loading] = useSession();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (session) {
+      router.push("/");
+    }
+  }, [session]);
+
   return (
     <section className="antialiased">
       <div className="flex flex-col min-h-screen overflow-hidden">
