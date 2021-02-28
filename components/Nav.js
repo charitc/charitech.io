@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import { signIn, signOut, useSession } from "next-auth/client";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -6,6 +8,8 @@ import Dropdown from "../utils/Dropdown";
 import Logo from "../partials/Logo";
 
 export default function Nav() {
+  const [session, loading] = useSession();
+
   // Navigation
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
@@ -92,17 +96,29 @@ export default function Nav() {
               </ul>
               {/* Desktop sign in links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center">
-                <li>
-                  <Link href="/signin ">
-                    <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
-                  </Link>
-                </li>
-
-                <li>
-                  <Link href="/signup">
-                    <a className="btn-sm text-white bg-plato-900 hover:bg-plato-800 ml-3">Sign up</a>
-                  </Link>
-                </li>
+                {!session && (
+                  <>
+                    <li>
+                      <Link href="/signin ">
+                        <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/signup">
+                        <a className="btn-sm text-white bg-plato-900 hover:bg-plato-800 ml-3">Sign up</a>
+                      </Link>
+                    </li>
+                  </>
+                )}
+                {session && (
+                  <>
+                    <li>
+                      <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                        <button onClick={() => signOut()}>Sign out</button>
+                      </a>
+                    </li>
+                  </>
+                )}
               </ul>
             </nav>
             {/* Mobile menu */}

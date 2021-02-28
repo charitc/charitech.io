@@ -3,6 +3,8 @@ import Head from "next/head";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
+import { Provider } from "next-auth/client";
+
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -10,7 +12,9 @@ export default function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <Provider session={pageProps.session}>
+        <Component {...pageProps} />
+      </Provider>
     </>
   );
 }
