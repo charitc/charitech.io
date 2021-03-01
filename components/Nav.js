@@ -95,12 +95,12 @@ export default function Nav() {
                 {!session && (
                   <>
                     <li>
-                      <Link href="/signin ">
+                      <Link href="/auth/signin ">
                         <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/signup">
+                      <Link href="/auth/signup">
                         <a className="btn-sm text-white bg-plato-900 hover:bg-plato-800 ml-3">Sign up</a>
                       </Link>
                     </li>
@@ -194,12 +194,12 @@ export default function Nav() {
                   </li>
                   */}
                   <li>
-                    <Link href="/signin">
+                    <Link href="/auth/signin">
                       <a className="flex font-medium w-full text-coral-300 hover:text-coral-200 py-2 justify-center">Sign in</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/signup">
+                    <Link href="/auth/signup">
                       <a className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-plato-900 bg-coral-300 hover:bg-coral-200 transition duration-150 ease-in-out">
                         Sign up
                       </a>
