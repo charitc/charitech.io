@@ -34,7 +34,6 @@ export default function Process() {
 
         {/*  Page sections */}
         <ProcessHero />
-        <Stats />
         <ProcessZigZaq />
         <IconBlock />
         {/* <CaseStudies /> */}

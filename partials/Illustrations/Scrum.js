@@ -1,7 +1,7 @@
 export default function ContactCTA() {
   return (
     <section>
-      <svg id="afc98551-3d88-4acb-87ed-36f06011ac7a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="768" height="423" viewBox="0 0 821.67627 579.00958">
+      <svg className="max-w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="768" height="423" viewBox="0 0 821.67627 579.00958">
         <path
           d="M371.238,218.49521h-52.3999a19.01722,19.01722,0,0,0-19,19v56.81c-.66992-.04-1.33985-.1-2-.18a66.99888,66.99888,0,1,1,73.10009-77.63C371.0481,217.15518,371.1482,217.82523,371.238,218.49521Z"
           transform="translate(-189.16186 -160.49521)"

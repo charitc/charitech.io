@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import ProcessIllustration from "../partials/Illustrations/Scrum";
+import ProcessIllustration from "../partials/Illustrations/Team";
 
 export default function ProcessHero() {
   return (
@@ -37,8 +37,10 @@ export default function ProcessHero() {
             </p>
           </div>
           {/* Image */}
-          <div className="flex justify-center mx-auto">
-            <ProcessIllustration />
+          <div className="max-w-3xl mx-auto sm:px-4">
+            <div className="flex justify-center">
+              <ProcessIllustration />
+            </div>
           </div>
         </div>
       </div>
