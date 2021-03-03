@@ -46,7 +46,7 @@ body {
 @layer components {
   .btn,
   .btn-sm {
-    @apply font-medium inline-flex items-center justify-center border border-transparent rounded-sm leading-snug transition duration-150 ease-in-out;
+    @apply font-medium inline-flex items-center justify-center border border-transparent rounded-md leading-snug transition duration-150 ease-in-out;
   }
 
   .btn {

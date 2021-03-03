@@ -50,6 +50,11 @@ export default function Nav() {
               {/* Desktop menu links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center text-gray-800">
                 <li>
+                  <Link href="/">
+                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Home</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/process">
                     <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">How it works</a>
                   </Link>
@@ -134,6 +139,11 @@ export default function Nav() {
                 style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
               >
                 <ul className="bg-plato-900 px-4 py-2 rounded-md shadow-2xl">
+                  <li>
+                    <Link href="/">
+                      <a className="flex font-medium text-white hover:text-linen-200 py-2">Home</a>
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/process">
                       <a className="flex font-medium text-white hover:text-linen-200 py-2">How it works</a>
