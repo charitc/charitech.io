@@ -15,7 +15,9 @@ export default function Process() {
               Built for every skill level
             </h2>
             <p className="text-xl text-gray-500" data-aos="fade-up" data-aos-delay="200">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.
+              Whether you're just starting out with developing or already advanced,
+              <br />
+              we'll find the right team for you.
             </p>
           </div>
 

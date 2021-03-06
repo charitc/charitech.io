@@ -14,7 +14,7 @@ function Dropdown({ children, title }) {
       onBlur={() => setDropdownOpen(false)}
     >
       <a
-        className="text-gray-700 hover:text-gray-500 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+        className="text-gray-800 hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out"
         href="#0"
         aria-haspopup="true"
         aria-expanded={dropdownOpen}
@@ -28,7 +28,7 @@ function Dropdown({ children, title }) {
       <Transition
         show={dropdownOpen}
         tag="ul"
-        className="origin-top-right absolute top-full right-0 w-40 bg-gray-200 py-2 ml-4 rounded-sm"
+        className="origin-top-right absolute top-full right-0 w-40 bg-plato-900 text-white py-2 ml-4 rounded-md"
         enter="transition ease-out duration-200 transform"
         enterStart="opacity-0 -translate-y-2"
         enterEnd="opacity-100 translate-y-0"

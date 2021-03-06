@@ -1,8 +1,5 @@
 /* React */
 import React, { useEffect } from "react";
-import { Switch, Route, useLocation } from "react-router-dom";
-/* Next.js */
-import Head from "next/head";
 /* Utilities */
 import AOS from "aos";
 
@@ -21,7 +18,6 @@ import Footer from "../components/Footer";
 
 /* Partials */
 import Illustration from "../partials/Illustration";
-import { Container } from "postcss";
 
 const url = "https://charitech.io";
 const title = "charitech.io";

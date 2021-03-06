@@ -46,7 +46,7 @@ export default function Contact() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                       <label className="block text-gray-900 text-sm font-medium mb-1" htmlFor="first-name">
-                        First Name <span className="text-red-600">*</span>
+                        First Name
                       </label>
                       <input
                         id="first-name"
@@ -59,7 +59,7 @@ export default function Contact() {
                     </div>
                     <div className="w-full md:w-1/2 px-3">
                       <label className="block text-gray-900 text-sm font-medium mb-1" htmlFor="last-name">
-                        Last Name <span className="text-red-600">*</span>
+                        Last Name
                       </label>
                       <input id="last-name" type="text" className="form-input w-full text-gray-300" placeholder="Enter your last name" required />
                     </div>
@@ -67,7 +67,7 @@ export default function Contact() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label className="block text-gray-900 text-sm font-medium mb-1" htmlFor="email">
-                        Email <span className="text-red-600">*</span>
+                        Email
                       </label>
                       <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="Enter your email address" required />
                     </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label className="block text-gray-900 text-sm font-medium mb-1" htmlFor="subject">
-                        Subject <span className="text-red-600">*</span>
+                        Subject
                       </label>
                       <input id="subject" type="text" className="form-input w-full text-gray-300" placeholder="How can we help you?" required />
                     </div>

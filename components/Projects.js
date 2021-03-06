@@ -30,7 +30,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -71,7 +71,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
 
               {/* 2nd article */}
@@ -89,7 +89,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -130,7 +130,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
 
               {/* 3rd article */}
@@ -148,7 +148,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -189,7 +189,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -252,7 +252,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
 
               {/* 2nd article */}
@@ -270,7 +270,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -311,7 +311,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
 
               {/* 3rd article */}
@@ -329,7 +329,7 @@ export default function Projects() {
                     </figure>
                   </a>
                 </header>
-                <content>
+                <section>
                   <div className="mx-4 mb-6">
                     <div className="mb-3">
                       <ul className="flex flex-wrap text-xs font-medium -m-1">
@@ -370,7 +370,7 @@ export default function Projects() {
                       </div>
                     </footer>
                   </div>
-                </content>
+                </section>
               </article>
             </div>
           </div>

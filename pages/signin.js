@@ -72,7 +72,7 @@ export default function SignIn() {
                             <span className="text-gray-800 ml-2">Keep me signed in</span>
                           </label>
                           <Link href="/reset-password">
-                            <a className="text-zomp-600 hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</a>
+                            <a className="text-zomp-700 hover:text-zomp-600 transition duration-150 ease-in-out">Forgot Password?</a>
                           </Link>
                         </div>
                       </div>

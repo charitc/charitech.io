@@ -23,7 +23,7 @@ export default function SignUp() {
               <div className="pt-32 pb-12 md:pt-40 md:pb-20">
                 {/* Page header */}
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                  <h1 className="h1">Welcome. We exist to make entrepreneurship easier.</h1>
+                  <h1 className="h1">Welcome. We exist to match people together.</h1>
                 </div>
 
                 {/* Form */}
@@ -51,7 +51,7 @@ export default function SignUp() {
                     <div className="flex flex-wrap -mx-3 mb-4">
                       <div className="w-full px-3">
                         <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="full-name">
-                          Full Name <span className="text-red-600">*</span>
+                          Full Name
                         </label>
                         <input id="full-name" type="text" className="form-input w-full text-gray-300 focus:outline-none" placeholder="First and last name" required />
                       </div>
@@ -59,7 +59,7 @@ export default function SignUp() {
                     <div className="flex flex-wrap -mx-3 mb-4">
                       <div className="w-full px-3">
                         <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="company-name">
-                          Company Name <span className="text-red-600">*</span>
+                          Company Name
                         </label>
                         <input id="company-name" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
                       </div>
@@ -67,7 +67,7 @@ export default function SignUp() {
                     <div className="flex flex-wrap -mx-3 mb-4">
                       <div className="w-full px-3">
                         <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="email">
-                          Work Email <span className="text-red-600">*</span>
+                          Work Email
                         </label>
                         <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
                       </div>
@@ -75,15 +75,15 @@ export default function SignUp() {
                     <div className="flex flex-wrap -mx-3 mb-4">
                       <div className="w-full px-3">
                         <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="password">
-                          Password <span className="text-red-600">*</span>
+                          Password
                         </label>
                         <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
                       </div>
                     </div>
                     <div className="text-sm text-gray-500 text-center">
-                      I agree to be contacted by Open PRO about this offer as per the Open PRO{" "}
+                      I agree to be contacted by charitech.io about my application as per the charitech.io{" "}
                       <Link href="/">
-                        <a className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"> Privacy Policy</a>
+                        <a className="underline text-gray-400 hover:text-plato-600 hover:no-underline transition duration-150 ease-in-out"> Privacy Policy</a>
                       </Link>
                       .
                     </div>
@@ -94,7 +94,7 @@ export default function SignUp() {
                     </div>
                   </form>
                   <div className="text-gray-500 text-center mt-6">
-                    Already using Open PRO?{" "}
+                    Already have an account?{" "}
                     <Link href="/signin">
                       <a className="text-zomp-600 hover:text-zomp-500 transition duration-150 ease-in-out">Sign in</a>
                     </Link>

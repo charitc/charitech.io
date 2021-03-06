@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -69,31 +69,22 @@ export default function Nav() {
                     <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">FAQs</a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/contact">
-                    <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
-                  </Link>
-                </li>
+
                 {/* 1st level: hover */}
-                {/* 
                 <Dropdown title="Support">
                   <li>
-                    <a className="font-medium text-sm text-gray-500 hover:text-gray-400 flex py-2 px-4 leading-tight" href="contact.html">
-                      Contact us
-                    </a>
+                    <Link href="https://docs.charitech.io">
+                      <a target="_blank" className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                        Docs
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="font-medium text-sm text-gray-500 hover:text-gray-400 flex py-2 px-4 leading-tight" href="faq.html">
-                      Help center
-                    </a>
-                  </li>
-                  <li>
-                    <a className="font-medium text-sm text-gray-500 hover:text-gray-400 flex py-2 px-4 leading-tight" href="404.html">
-                      404
-                    </a>
+                    <Link href="/contact">
+                      <a className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
+                    </Link>
                   </li>
                 </Dropdown>
-                */}
               </ul>
               {/* Desktop sign in links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center">
