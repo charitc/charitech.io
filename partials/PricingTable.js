@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function PricingTable() {
@@ -13,12 +14,12 @@ export default function PricingTable() {
       true: ["$", "0", "/mo"],
     },
     plan2: {
-      false: ["$", "10", "/mo"],
-      true: ["$", "8", "/mo"],
-    },
-    plan3: {
       false: ["$", "25", "/mo"],
       true: ["$", "20", "/mo"],
+    },
+    plan3: {
+      false: ["$", "50", "/mo"],
+      true: ["$", "40", "/mo"],
     },
   });
 
@@ -32,7 +33,7 @@ export default function PricingTable() {
               Simple, transparent pricing
             </h1>
             <p className="text-xl text-gray-600" data-aos="fade-up" data-aos-delay="200">
-              Get the Open PRO plan that fits your needs at a special introductory price.
+              Find the right plan that suits your needs, with an always-free plan included
             </p>
           </div>
 
@@ -55,54 +56,56 @@ export default function PricingTable() {
 
             <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
               {/* Pricing table 1 */}
+
               <div className="relative flex flex-col h-full p-6 bg-plato-900 rounded-md" data-aos="fade-up" data-aos-delay="700">
                 <div className="mb-4 pb-4 border-b border-plato-800">
                   <div className="h4 text-coral-300 mb-1">Free</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-white">{priceOutput.plan1[value][0]}</span>
                     <span className="h2 text-white">{priceOutput.plan1[value][1]}</span>
-                    <span className="font-medium text-white">{priceOutput.plan1[value][2]}</span>
                   </div>
-                  <div className="text-white">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-white">All you need to start your first project in a team with likeminded developers.</div>
                 </div>
-                <div className="font-medium mb-3 text-white">Features include:</div>
+                <div className="font-medium mb-3 text-white">Free includes:</div>
                 <ul className="text-white -mb-3 flex-grow">
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>50 Placeholder text commonly</span>
+                    <span>Get matched to a team</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Consectetur adipiscing elit</span>
+                    <span>Organization of kick-off</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Excepteur sint occaecat cupidatat</span>
+                    <span>GitHub Repository</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Officia deserunt mollit anim</span>
+                    <span>Team Slack-Channel</span>
                   </li>
                 </ul>
                 <div className=" p-3 mt-6">
-                  <a className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full" href="#0">
-                    Start free trial
-                  </a>
+                  <Link href="/signup">
+                    <a className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full" href="#0">
+                      Start now
+                    </a>
+                  </Link>
                 </div>
               </div>
 
               {/* Pricing table 2 */}
               <div className="relative flex flex-col h-full p-6 bg-plato-900 rounded-md" data-aos="fade-up" data-aos-delay="600">
                 <div className="absolute top-0 right-0 mr-6 -mt-4">
-                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-zomp-300 rounded-full">Most Popular</div>
+                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-zomp-300 rounded-full">Coming soon</div>
                 </div>
                 <div className="mb-4 pb-4 border-b border-plato-800">
                   <div className="h4 text-coral-300 mb-1">Pro</div>
@@ -111,15 +114,15 @@ export default function PricingTable() {
                     <span className="h2 text-white">{priceOutput.plan2[value][1]}</span>
                     <span className="font-medium text-white">{priceOutput.plan2[value][2]}</span>
                   </div>
-                  <div className="text-white">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-white">Professional tools plus live coding and Q&A sessions with a professional.</div>
                 </div>
-                <div className="font-medium mb-3 text-white">All features of Essential plus:</div>
+                <div className="font-medium mb-3 text-white">All features of Free plus:</div>
                 <ul className="text-white -mb-3 flex-grow">
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>100 placeholder text commonly</span>
+                    <span>2x Q&A Sessions</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-zomp-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -147,14 +150,17 @@ export default function PricingTable() {
                   </li>
                 </ul>
                 <div className=" p-3 mt-6">
-                  <a className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full" href="#0">
-                    Start free trial
-                  </a>
+                  <button className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full cursor-not-allowed disabled:opacity-50" disabled>
+                    Sign-up
+                  </button>
                 </div>
               </div>
 
               {/* Pricing table 3 */}
               <div className="relative flex flex-col h-full p-6 bg-plato-900 rounded-md" data-aos="fade-up" data-aos-delay="800">
+                <div className="absolute top-0 right-0 mr-6 -mt-4">
+                  <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-zomp-300 rounded-full">Coming soon</div>
+                </div>
                 <div className="mb-4 pb-4 border-b border-plato-800">
                   <div className="h4 text-coral-300 mb-1">Premium</div>
                   <div className="inline-flex items-baseline mb-2">
@@ -204,9 +210,9 @@ export default function PricingTable() {
                   </li>
                 </ul>
                 <div className=" p-3 mt-6">
-                  <a className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full" href="#0">
-                    Start free trial
-                  </a>
+                  <button className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full cursor-not-allowed disabled:opacity-50" disabled>
+                    Sign-up
+                  </button>
                 </div>
               </div>
             </div>
