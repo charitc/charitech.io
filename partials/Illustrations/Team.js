@@ -1,6 +1,6 @@
 export default function Team() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" data-name="Layer 1" viewBox="0 0 1137.68 859.71">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" data-name="Layer 1" width="100%" height="100%" viewBox="0 0 1137.68 859.71">
       <defs>
         <linearGradient id="1d1d90cb-e8d6-4c10-b901-192027040f7e" x1="512.79" x2="512.79" y1="730.45" y2="139.36" gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="gray" stopOpacity="0.25"></stop>

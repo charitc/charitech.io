@@ -1,8 +1,6 @@
 import React from "react";
-import Image from "next/image";
 
 import Scrum from "../partials/Illustrations/Scrum";
-import Team from "../partials/Illustrations/Team";
 import Code from "../partials/Illustrations/Code";
 import Pairprogramming from "../partials/Illustrations/Pairprogramming";
 
@@ -13,10 +11,10 @@ export default function ProcessZigZaq() {
         <div className="py-12 md:py-20 border-t border-gray-200">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-4 m-2 text-white bg-plato-900 rounded-full mb-4">Reach goals that matter</div>
+            <div className="inline-flex text-sm font-semibold py-1 px-4 m-2 text-white bg-plato-900 rounded-full mb-4">Reach your goals together</div>
             <h1 className="h2 mb-4">One workflow, unlimited possibilites</h1>
             <p className="text-xl text-gray-500">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.
+              Every team is unique and so is your project. We do not enforce any rules but provide solid guiding for your workflow.
             </p>
           </div>
 
@@ -34,7 +32,7 @@ export default function ProcessZigZaq() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-zomp-600 mb-2">Meet your team</div>
-                  <h3 className="h3 mb-3">Plan your project together</h3>
+                  <h3 className="h3 mb-3">Plan your project, together</h3>
                   <p className="text-xl text-gray-500 mb-4">
                     The project starts with a team kick-off. Time to meet your team, exchange ideas and set the project plan. Your first planning session will involve:
                   </p>
@@ -74,7 +72,7 @@ export default function ProcessZigZaq() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-zomp-600 mb-2">Get in the project</div>
-                  <h3 className="h3 mb-3">Get starting, together</h3>
+                  <h3 className="h3 mb-3">Get starting, with help</h3>
                   <p className="text-xl text-gray-500 mb-4">
                     It's dangerous to go alone! You will stay in close contact with your team, so you can help each other out when stuck.
                   </p>

@@ -1,6 +1,6 @@
 export default function PairProgramming() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 1130.08 738.14">
+    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="100%" height="100%" viewBox="0 0 1130.08 738.14">
       <defs>
         <linearGradient id="a340ed46-1652-4aba-8925-cf57be9109ca" x1="421.41" x2="423.73" y1="548.67" y2="548.67" gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="gray" stopOpacity="0.25"></stop>
