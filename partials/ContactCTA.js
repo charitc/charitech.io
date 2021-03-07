@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ContactCTA() {
   return (
     <section>
@@ -13,9 +15,11 @@ export default function ContactCTA() {
 
             {/* CTA button */}
             <div className="w-full lg:w-1/4 flex justify-center lg:justify-end">
-              <a className="btn text-plato-900 bg-coral-300 hover:bg-coral-200" href="#0">
-                Contact us
-              </a>
+              <Link href="mailto:hello@charitech.io?subject=Hello%20charitech.io!">
+                <a target="_blank" className="btn text-plato-900 bg-coral-300 hover:bg-coral-200">
+                  Contact us
+                </a>
+              </Link>
             </div>
           </div>
         </div>
