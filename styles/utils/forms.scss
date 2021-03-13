@@ -69,8 +69,16 @@
   input[type="radio"] {
     @apply bg-transparent text-plato-900;
   }
-}
 
+  .cta_mail {
+    input[type="email"] {
+      @apply text-white;
+      &::placeholder {
+        @apply text-white;
+      }
+    }
+  }
+}
 /*
 "input, textarea, multiselect, select, checkbox, radio": {
             backgroundColor: "transparent",

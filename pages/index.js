@@ -58,7 +58,6 @@ export default function Home() {
             <Features />
             <TabFeatures />
             <Targets />
-            <Projects />
             <CTA />
             <Footer />
           </main>

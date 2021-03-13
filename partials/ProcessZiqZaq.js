@@ -6,7 +6,7 @@ import Pairprogramming from "../partials/Illustrations/Pairprogramming";
 
 export default function ProcessZigZaq() {
   return (
-    <section>
+    <section className="pb-8 md:pb-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-200">
           {/* Section header */}
@@ -114,15 +114,14 @@ export default function ProcessZigZaq() {
                   <div className="font-architects-daughter text-xl text-zomp-600 mb-2">Ship your project</div>
                   <h3 className="h3 mb-3">Ready, set, deploy</h3>
                   <p className="text-xl text-gray-500 mb-4">
-                    When finished you will deploy your project and present it to the world. Review your work together, share your learnings and celebrate your first
-                    project.
+                    When finished you will deploy your project and present it to the world. Review your work together, share your learnings and grab your certificate.
                   </p>
                   <ul className="text-lg text-gray-500 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-zomp-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Learn to publish and deploy</span>
+                      <span>Free certficate for your portfolio</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-zomp-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

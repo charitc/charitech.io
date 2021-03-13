@@ -37,7 +37,7 @@ export default function Process() {
                 <path className="stroke-current text-linen-300" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-white" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Registration</h4>
+              <h4 className="h4 mb-2">1. Registration</h4>
               <p className="text-lg text-gray-500 text-center">Tell us more about your skills that you already acquired and the technology you want to learn.</p>
             </div>
 
@@ -62,7 +62,7 @@ export default function Process() {
                   <path className="stroke-current text-white" strokeWidth="2" strokeLinecap="square" d="M36 32l-4-3-4 3V22h8z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Matching</h4>
+              <h4 className="h4 mb-2">2. Matching</h4>
               <p className="text-lg text-gray-500 text-center">We will match you with other students around your skill level so that you grow together.</p>
             </div>
 
@@ -73,7 +73,7 @@ export default function Process() {
                 <path className="stroke-current text-linen-300" strokeWidth="2" strokeLinecap="square" d="M21 35l4 4 12-15" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-white" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Start</h4>
+              <h4 className="h4 mb-2">3. Start</h4>
               <p className="text-lg text-gray-500 text-center">We will provide you with all setup instruction need to kick-off your project in record time.</p>
             </div>
           </div>

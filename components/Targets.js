@@ -8,7 +8,7 @@ export default function Targets() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
-              Created for developers, suited for every digital newcomer
+              Created for developers who want to pursue a professional career
             </h2>
           </div>
 
@@ -30,30 +30,24 @@ export default function Targets() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-zomp-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">
-                    Be the change you want to see
+                    The soft-skills that matter
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2">
-                      <span className="text-zomp-400">.</span> For developers
-                    </h4>
+                    <h4 className="h4 mb-2">Collaborative working</h4>
                     <p className="text-lg text-gray-500">
-                      We created charitech.io for developers. Projects will always have a strong focus on creating a technical solution to a non-profit need.
+                      Learn to work as a team, in a collaborative environment where your efforts to the team directly impact its sucess.
                     </p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2">
-                      <span className="text-zomp-400">.</span> For project managers
-                    </h4>
+                    <h4 className="h4 mb-2">Project management</h4>
                     <p className="text-lg text-gray-500">
-                      As for every team, communication and coordination is a big productivity driver. Get your first experience with software projects in record time.
+                      Learn to plan a software project in a team. This means planning and constant communication to meet the deadline.
                     </p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2">
-                      <span className="text-zomp-400">.</span> For marketers
-                    </h4>
+                    <h4 className="h4 mb-2">Communication</h4>
                     <p className="text-lg text-gray-500">
-                      You eat with your eyes, we're no expection here. As projects are mostly websites - jump in an take over the marketing for your team.
+                      Learn to communicate in a project envirmonts with providing feedback and communicate your ideas in a profession setting.
                     </p>
                   </div>
                 </div>
