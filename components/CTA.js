@@ -10,7 +10,6 @@ export default function CTA() {
 
   const [inputs, setInputs] = useState({
     email: "",
-    message: "",
   });
 
   const handleResponse = (status, msg) => {
@@ -22,7 +21,6 @@ export default function CTA() {
       });
       setInputs({
         email: "",
-        message: "",
       });
     } else {
       setStatus({
@@ -81,6 +79,7 @@ export default function CTA() {
                   id="email"
                   type="email"
                   className="cta_mail w-full appearance-none bg-coral-300 border border-linen-200 focus:border-linen-200 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-coral-300"
+                  style={{ color: "white" }}
                   placeholder="Your email…"
                   aria-label="Your email…"
                   onChange={handleOnChange}
