@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { providers, SignIn, signOut, useSession, getSession, csrfToken } from "next-auth/client";
 
+import Link from "next/link";
+
 import Nav from "../../components/Nav";
 import Illustration from "../../partials/Illustration";
 import SignInForm from "../../components/SignInForm";

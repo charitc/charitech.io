@@ -23,7 +23,7 @@ export default function Targets() {
                 data-aos-delay="200"
                 data-aos-anchor="[data-aos-id-target]"
               >
-                <Image src="/images/features-02-image.png" alt="Picture of the author" width={540} height={520} className="mx-auto md:max-w-none" />
+                <Image src="/images/targets.png" alt="Picture of the author" width={540} height={520} className="mx-auto md:max-w-none" />
               </div>
 
               {/* Content */}
