@@ -144,7 +144,7 @@ export default function TabFeatures() {
                       Following agilge methology, in your planning you will meet to set your sprint goal together. You will seperate the tasks into packages and
                       prioritize together. Talk about technical dependencies and assign the work within your team.
                     </p>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="btn-sm text-white bg-coral-300 hover:bg-coral-400 mt-6">
                         <span className="text-sm text-plato-900">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-plato-900 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +178,7 @@ export default function TabFeatures() {
                       Pair programming essantially means two people writing code on one machine. This means you can not only discuss different ways to solve a problem,
                       but also share your knowledge, reflect the problems you face and have a code review "on the go".
                     </p>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="btn-sm text-white bg-coral-300 hover:bg-coral-400 mt-6">
                         <span className="text-sm text-plato-900">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-plato-900 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@ export default function TabFeatures() {
                       In weekly team meetings you can get updates on the progress of the project. Take a look at what your team has done and present your work. To
                       complete the project on time, keep an eye on the timeline. But don't worry: if you get stuck, you'll find a solution together.
                     </p>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="btn-sm text-white bg-coral-300 hover:bg-coral-400 mt-6">
                         <span className="text-sm text-plato-900">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-plato-900 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +246,7 @@ export default function TabFeatures() {
                       It's important to have a good workflow when it comes to code collaboration. Learn to use git version control with your team to seemlesly work
                       together in one project. You will learn to work with "branches" and "pull requests" in order to work on a feature independently.
                     </p>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="btn-sm text-white bg-coral-300 hover:bg-coral-400 mt-6">
                         <span className="text-sm text-plato-900">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-plato-900 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -281,7 +281,7 @@ export default function TabFeatures() {
                       organization you've worked for. As you will work on a real world project, you are of course allow to include the project into your personal
                       portfolio.
                     </p>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="btn-sm text-white bg-coral-300 hover:bg-coral-400 mt-6">
                         <span className="text-sm text-plato-900">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-plato-900 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

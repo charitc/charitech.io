@@ -31,12 +31,12 @@ export default function Footer() {
                 <h6 className="text-gray-700 font-medium mb-1">Get Started</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/signup">
+                    <Link href="/auth/signup">
                       <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Register</a>
                     </Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/signin">
+                    <Link href="/auth/signin">
                       <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Sign-in</a>
                     </Link>
                   </li>
@@ -48,7 +48,7 @@ export default function Footer() {
                 <h6 className="text-gray-700 font-medium mb-1">Ressources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="text-gray-500 hover:text-gray-400 transition duration-150 ease-in-out">Process</a>
                     </Link>
                   </li>

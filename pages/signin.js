@@ -97,7 +97,7 @@ export default function SignInPage() {
                   </form>
                   <div className="text-gray-700 text-center mt-6">
                     Don’t you have an account?{" "}
-                    <Link href="/signup">
+                    <Link href="/auth/signup">
                       <a className="text-zomp-600 hover:text-zomp-500 transition duration-150 ease-in-out">Sign up</a>
                     </Link>
                   </div>

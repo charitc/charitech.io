@@ -59,7 +59,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/process">
+                  <Link href="/how-it-works">
                     <a className="hover:text-zomp-700 px-4 py-2 flex items-center transition duration-150 ease-in-out">How it works</a>
                   </Link>
                 </li>
@@ -74,21 +74,22 @@ export default function Nav() {
                   </Link>
                 </li>
 
-                {/* 1st level: hover */}
-                <Dropdown title="Support">
-                  <li>
-                    <Link href="https://docs.charitech.io">
-                      <a target="_blank" className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                        Docs
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">
-                      <a className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
-                    </Link>
-                  </li>
-                </Dropdown>
+                {/* 1st level: hover 
+                <Dropdown title="Support">*/}
+                {/* 
+                <li>
+                  <Link href="https://docs.charitech.io">
+                    <a target="_blank" className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                      Docs
+                    </a>
+                  </Link>
+                </li>*/}
+                <li>
+                  <Link href="/contact">
+                    <a className="hover:text-white px-4 py-2 flex items-center transition duration-150 ease-in-out">Contact</a>
+                  </Link>
+                </li>
+                {/*</Dropdown>*/}
               </ul>
               {/* Desktop sign in links */}
               <ul className="flex flex-grow justify-end flex-wrap items-center">
@@ -152,7 +153,7 @@ export default function Nav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/process">
+                    <Link href="/how-it-works">
                       <a className="flex font-medium text-white hover:text-linen-200 py-2">How it works</a>
                     </Link>
                   </li>

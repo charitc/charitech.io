@@ -17,7 +17,7 @@ export default function ProcessCTA() {
 
             {/* CTA button */}
             <div className="flex justify-center mb-8" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-cta]">
-              <Link href="/signup">
+              <Link href="/auth/signup">
                 <a className="btn text-plato-900 bg-coral-300 hover:bg-coral-200">Get started</a>
               </Link>
             </div>

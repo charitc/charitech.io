@@ -94,7 +94,7 @@ export default function PricingTable() {
                   </li>
                 </ul>
                 <div className=" p-3 mt-6">
-                  <Link href="/signup">
+                  <Link href="/auth/signup">
                     <a className="btn-sm text-plato-900 bg-coral-300 hover:bg-coral-200 w-full" href="#0">
                       Start now
                     </a>

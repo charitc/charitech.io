@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
+import { csrfToken } from "next-auth/client";
+
 import Nav from "../../components/Nav";
 import Illustration from "../../partials/Illustration";
 
-export default function SignUp() {
+export default function SignUp({ csrfToken }) {
   return (
     <section className="bg-linen-200 antialiased">
       <div className="flex flex-col min-h-screen overflow-hidden">
@@ -47,7 +49,9 @@ export default function SignUp() {
                     <div className="text-gray-800">Or, register with your email</div>
                     <div className="border-t border-gray-700 border-dotted flex-grow ml-3" aria-hidden="true"></div>
                   </div>
-                  <form>
+                  {/* Form */}
+                  <form method="post" action="/api/auth/signin/email">
+                    <input name="csrfToken" type="hidden" defaultValue={csrfToken} />
                     <div className="flex flex-wrap -mx-3 mb-4">
                       <div className="w-full px-3">
                         <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="full-name">
@@ -89,13 +93,15 @@ export default function SignUp() {
                     </div>
                     <div className="flex flex-wrap -mx-3 mt-6">
                       <div className="w-full px-3">
-                        <button className="btn text-white bg-plato-900 hover:bg-plato-800 w-full">Sign up</button>
+                        <button type="submit" className="btn text-white bg-plato-900 hover:bg-plato-800 w-full">
+                          Sign up
+                        </button>
                       </div>
                     </div>
                   </form>
                   <div className="text-gray-500 text-center mt-6">
                     Already have an account?{" "}
-                    <Link href="/signin">
+                    <Link href="/auth/signin">
                       <a className="text-zomp-600 hover:text-zomp-500 transition duration-150 ease-in-out">Sign in</a>
                     </Link>
                   </div>

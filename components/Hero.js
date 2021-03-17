@@ -37,12 +37,12 @@ export default function Header() {
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <Link href="/signup">
+                <Link href="/auth/signup">
                   <a className="btn text-white bg-plato-900 hover:bg-plato-800 w-full mb-4 sm:w-auto sm:mb-0">Register free</a>
                 </Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <Link href="/process">
+                <Link href="/how-it-works">
                   <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">Learn more</a>
                 </Link>
               </div>
