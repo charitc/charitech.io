@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 
-import Nav from "../components/Nav";
-import Illustration from "../partials/Illustration";
+import Nav from "@/components/Nav";
+import Illustration from "@/partials/Illustration";
 
-import ProcessHero from "../partials/ProcessHero";
-import Stats from "../partials/Stats";
-import ProcessZigZaq from "../partials/ProcessZiqZaq";
-import IconBlock from "../partials/IconBlock";
-import ProcessCTA from "../partials/ProcessCTA";
-import Footer from "../components/Footer";
+import ProcessHero from "@/partials/ProcessHero";
+import Stats from "@/partials/Stats";
+import ProcessZigZaq from "@/partials/ProcessZiqZaq";
+import IconBlock from "@/partials/IconBlock";
+import ProcessCTA from "@/partials/ProcessCTA";
+import Footer from "@/components/Footer";
 
 export default function Process() {
   useEffect(() => {

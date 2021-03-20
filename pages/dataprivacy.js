@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 
-import Nav from "../components/Nav";
-import Illustration from "../partials/Illustration";
-import Footer from "../components/Footer";
+import Nav from "@/components/Nav";
+import Illustration from "@/partials/Illustration";
+import Footer from "@/components/Footer";
 
 export default function DataPrivacy() {
   useEffect(() => {

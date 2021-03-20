@@ -3,9 +3,9 @@ import { providers, SignIn, signOut, useSession, getSession, csrfToken } from "n
 
 import Link from "next/link";
 
-import Nav from "../../components/Nav";
-import Illustration from "../../partials/Illustration";
-import SignInForm from "../../components/SignInForm";
+import Nav from "@/components/Nav";
+import Illustration from "@/partials/Illustration";
+import SignInForm from "@/components/SignInForm";
 
 export default function SignInPage({ providers, csrfToken }) {
   const [session, loading] = useSession();

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CTAIllustration from "../partials/CTAIllustration";
+import CTAIllustration from "@/partials/CTAIllustration";
 
 export default function CTA() {
   const [status, setStatus] = useState({

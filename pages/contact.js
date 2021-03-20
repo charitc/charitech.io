@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
 
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
-import Illustration from "../partials/Illustration";
-import ContactCTA from "../partials/ContactCTA";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
+import Illustration from "@/partials/Illustration";
+import ContactCTA from "@/partials/ContactCTA";
 
 export default function Contact() {
   {

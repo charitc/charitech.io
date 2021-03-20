@@ -4,8 +4,8 @@ import { signIn, signOut, useSession } from "next-auth/client";
 import Link from "next/link";
 import Image from "next/image";
 
-import Dropdown from "../utils/Dropdown";
-import Logo from "../partials/Logo";
+import Dropdown from "@/utils/Dropdown";
+import Logo from "@/partials/Logo";
 
 export default function Nav() {
   const [session, loading] = useSession();
@@ -109,6 +109,13 @@ export default function Nav() {
                 )}
                 {session && (
                   <>
+                    <li>
+                      <Link href="/auth/account">
+                        <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                          <button>Account</button>
+                        </a>
+                      </Link>
+                    </li>
                     <li>
                       <a className="font-medium text-gray-800 hover:text-zomp-700 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                         <button onClick={() => signOut()}>Sign out</button>

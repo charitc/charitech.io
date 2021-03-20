@@ -3,8 +3,8 @@ import Link from "next/link";
 
 import { csrfToken } from "next-auth/client";
 
-import Nav from "../../components/Nav";
-import Illustration from "../../partials/Illustration";
+import Nav from "@/components/Nav";
+import Illustration from "@/partials/Illustration";
 
 export default function SignUp({ csrfToken }) {
   return (

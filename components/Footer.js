@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import Logo from "../partials/Logo";
-import PoweredBy from "../components/Poweredby";
+import Logo from "@/partials/Logo";
+import PoweredBy from "@/components/Poweredby";
 
 export default function Footer() {
   return (

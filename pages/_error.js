@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
-import Illustration from "../partials/Illustration";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
+import Illustration from "@/partials/Illustration";
 
 export default function Error({ statusCode }) {
   return (

@@ -3,9 +3,11 @@ import { SignIn, signOut, useSession } from "next-auth/client";
 
 import { useRouter } from "next/router";
 
-import Nav from "../components/Nav";
-import Illustration from "../partials/Illustration";
-import SignInForm from "../components/SignInForm";
+import Link from "next/link";
+
+import Nav from "@/components/Nav";
+import Illustration from "@/partials/Illustration";
+import SignInForm from "@/components/SignInForm";
 
 export default function SignInPage() {
   const [session, loading] = useSession();

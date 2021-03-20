@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Git from "../partials/Illustrations/Git";
+import Git from "@/partials/Illustrations/Git";
 
 export default function Features() {
   return (

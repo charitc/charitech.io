@@ -6,18 +6,18 @@ import AOS from "aos";
 import { NextSeo } from "next-seo";
 
 /* Components */
-import Nav from "../components/Nav";
-import Hero from "../components/Hero";
-import Process from "../components/Process";
-import Features from "../components/Features";
-import TabFeatures from "../components/Tabs";
-import Targets from "../components/Targets";
-import CTA from "../components/CTA";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
+import Process from "@/components/Process";
+import Features from "@/components/Features";
+import TabFeatures from "@/components/Tabs";
+import Targets from "@/components/Targets";
+import CTA from "@/components/CTA";
+import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 /* Partials */
-import Illustration from "../partials/Illustration";
+import Illustration from "@/partials/Illustration";
 
 const url = "https://charitech.io";
 const title = "charitech.io";
